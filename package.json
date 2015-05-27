@@ -1,0 +1,30 @@
+{
+  "name": "node-ebay-finding-api",
+  "version": "1.0.1",
+  "description": "npm module for eBay Finding API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bogdanlungu/node-finding-ebay-api"
+  },
+  "keywords": [
+    "api",
+    "ebay",
+    "finding"
+  ],
+  "author": "Bogdan Lungu based on Demchig Batchuluun node-ebay-trading-api module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogdanlungu/node-finding-ebay-api/issues"
+  },
+  "homepage": "https://github.com/bogdanlungu/node-finding-ebay-api",
+  "devDependencies": {
+  },
+  "dependencies" : {
+    "node-rest-client" : "~1.4.1",
+    "xml2js" : "~0.4.4"
+  }
+}
